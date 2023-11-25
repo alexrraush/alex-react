@@ -1,8 +1,6 @@
 import { useCounter } from "../../hooks/UseCounter"
 
 
-
-// useNombre -> hook  
 export const ItemCounter = ({initial=1, stock=10, onAdd}) => {
     const {count, handleResta, handleSuma} = useCounter(initial, stock)    
 

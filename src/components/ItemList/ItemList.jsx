@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom"
 import { Filter } from "../ItemListContainer/Filter"
 
-const productFiltered = ({products, filterState, handleFilterChange}) => (
+const productFiltered = ({products, filterState}) => (
     <>
-       {/*} <div className="">
-            <label>Buscar</label>
-            <input className="form-control" type="text" value={filterState} onChange={handleFilterChange} />
-</div>*/}
-        <br />
+       
+      
 
         {
             filterState === '' ? 
@@ -57,6 +54,4 @@ export const ItemList = ({products}) => {
         { productFiltered }
     </Filter>
   )
-}
-
-//    
+}  

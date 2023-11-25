@@ -19,16 +19,10 @@ function App() {
     <BrowserRouter>
       <NavBar/>
       <Routes>
+
         <Route path='/' element={<ItemListContainer  greeting='Bienvenidos a la Tienda'/>}/>
         <Route path='/detail/:pid' element={<ItemDetailContainer /> } />
         <Route path='/categoria/:cid' element={<ItemListContainer /> } />
-       
-       
-        {/*<Route path='*' element={<Navigate to='/' />} />*/}
-        {/*<Route path='/detail/:pid' element={<ItemDetaliContainer /> } />*/}
-        {/*<Route paht='/item' element={<ItemDetailContainer/>} */}
-        {/*<ItemCounter initial={1} stock={5} onAdd={onAdd}/> */}
-      {/*<Titulo Titulo = {tituloApp}  /> */}
       
       </Routes>
     </BrowserRouter>
