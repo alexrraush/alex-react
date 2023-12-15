@@ -1,3 +1,8 @@
+Entrega final - React Js - Alex Rausch
+Ecommerce Implementos Agricolas - Tienda Virtual
+
+Demo: https://alex-react.netlify.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
